@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <title>Calculator</title>
+    
+</head>
+
+<body class="bo">
+    
+    <div class="topic">
+        <h1>Calculator:</h1>
+    </div>
+    
+    <thead>
+        <table class="tbl" border="5" cellspacing="5" cellpadding="18" align="center">
+            <tr>
+                <th><h1>Item Details</h1></th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="item">Item:</label>
+                    <input type id="a1" class="n0" value="Pen">:
+                    <input type="number" id="a2" class="n1" value="40" oninput="calc()"> x
+                    <input type="number" id="a3" class="n1" oninput="calc()">
+                    <label for="oper">=</label>
+                    <input type="text" id="m" value="">
+                    <!-- <h2>Price: <span id="sum">0 Rs</span></h2> -->
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="item">Item:</label>
+                    <input type="text" id="a4" class="n0" value="Eraser">:
+                    <input type="number" id="a5" class="n1" value="30" oninput="calc1()"> x
+                    <input type="number" id="a6" class="n1" oninput="calc1()">
+                    <label for="oper">=</label>
+                    <input type="text" id="m1" value="">
+                    <!-- <h2>Price: <span id="sum1">0 Rs</span></h2> -->
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="item">Item:</label>
+                    <input type="text" id="a7" class="n0" value="Copy">:
+                    <input type="number" id="a8" class="n1" value="35" oninput="calc2()"> x
+                    <input type="number" id="a9" class="n1" oninput="calc2()">
+                    <label for="oper">=</label>
+                    <input type="text" id="m2" value="">
+                    <!-- <h2>Price: <span id="sum2">0 Rs</span></h2> -->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="item">Item:</label>
+                    <input type="text" id="a10" class="n0" value="Book">:
+                    <input type="number" id="a11" class="n1" value="18" oninput="calc3()"> x
+                    <input type="number" id="a12" class="n1" oninput="calc3()">
+                    <label for="oper">=</label>
+                    <input type="text" id="m3" value="">
+                    <!-- <h2>Price: <span id="sum3">0 Rs</span></h2> -->
+                </td>
+                
+            </tr>
+            <tr >
+                <th>
+                    <button class="btn" onclick="total()" >Get Total </button>                 
+                </th>
+            </tr>
+            <tr style="font-family: fantasy;">
+                <th><h1>Total Price: <span id="totals">0 Rs</span></h1></th>
+            </tr>
+            <!-- </thead> -->
+        </table>
+        <div>
+            
+        </div>
+    </body>
+    <script src="./script.js"></script>
+    </html>

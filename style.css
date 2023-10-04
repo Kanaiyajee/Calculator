@@ -1,0 +1,27 @@
+.topic{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+.btn{
+    border: 4px solid rgb(248, 1, 1); background-color: rgb(8, 8, 8) ;color: #fbfcfb;
+    height: 50px;
+    width: 180px;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+    background-color:aquamarine;
+}
+label{
+   font-family:fantasy;
+}
+.bo{
+    background-image: url('./b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(240, 156, 10);
+}
